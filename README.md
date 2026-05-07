@@ -39,9 +39,23 @@ pip install -r requirements.txt
 Get your API key at [console.anthropic.com](https://console.anthropic.com).
 
 **Option A — Environment variable (recommended):**
+
+Linux / macOS:
 ```bash
 export ANTHROPIC_API_KEY="your-api-key-here"
 ```
+
+Windows CMD:
+```cmd
+set ANTHROPIC_API_KEY=your-api-key-here
+```
+
+Windows PowerShell:
+```powershell
+$env:ANTHROPIC_API_KEY="your-api-key-here"
+```
+
+> ⚠️ Set the variable in the **same terminal window** you'll run the script in.
 
 **Option B — Edit the file directly:**
 
